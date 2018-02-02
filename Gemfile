@@ -4,7 +4,7 @@ source "https://rubygems.org"
 gem "sinatra"
 gem "redis"
 gem 'haml'
-gem 'rbhive'
+gem 'rbhive', git: 'https://github.com/yuua/rbhive.git' , branch: 'database_set'
 gem 'impala'
 gem 'rubyzip'
 
