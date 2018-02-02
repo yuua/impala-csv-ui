@@ -1,0 +1,14 @@
+!!!
+%html
+  %head
+    %title #{@title}!
+    %link(rel='stylesheet' href='css/bootstrap.min.css')
+    %link(rel='javascript' href='js/bootstrap.min.js')
+    %link(rel='javascript' href='js/jquery-3.2.1.min.js')
+    %body
+      .container
+        %h3 csv download
+        %form{action: 'sql_exec', method: 'post'}
+          %textarea{:name => 'sql',class: 'form-control', rows: 20 ,id: 'comment'}
+          %br
+          %input{type: 'submit', value: 'send' ,class: 'btn btn-primary'}

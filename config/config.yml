@@ -1,0 +1,25 @@
+url:
+  development: http://localhost:9292/csvs/
+  production: http://#{FQDN}9292/csvs/
+hive:
+  development:
+    address: #{ADDRESS}
+    port: 10000
+    username: #{USER}
+    password: #{PW}
+    time: 1000
+  production:
+    address: #{ADDRESS}
+    port: 10000
+    username: #{USER}
+    password: #{PW}
+    time: 1800
+impala:
+  development:
+    address: #{ADDRESS}
+    port: 21000
+    timeout: 1000
+  production:
+    address: #{ADDRESS}
+    port: 21000
+    timeout: 1000

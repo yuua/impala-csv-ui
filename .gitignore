@@ -1,0 +1,6 @@
+vendor
+.bundle
+.DS_Store
+.vagrant
+*.csv
+*.zip
